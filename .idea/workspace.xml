@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7651bb52-870f-4ed2-9523-33fb5cb0e915" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/guestbook.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/guestbook_test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php_simpletest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\HELP_MY_TESTS_DONT_WORK_ANYMORE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\TODO.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\VERSION" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\arguments.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\authentication.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\autorun.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\browser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\collector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\compatibility.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\cookies.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\default_reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\detached.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\en\docs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\fr\docs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\it\docs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\lastcraft\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\onpk\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\pkg\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\book-domain-driven-design.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\book-guide-to-php-design-patterns.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\book-the-php-anthology-object-oriented-php-solutions.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\quote.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\simpletest-contribute.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\simpletest-download.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\simpletest-external-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\simpletest-external-middle.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\simpletest-external-top.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\simpletest-internal-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\simpletest-internal-middle.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\simpletest-internal-top.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\simpletest-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\simpletest-start-testing.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\simpletest-support.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\test-in-cli.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\test-with-1-fail.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\images\test-with-1-pass.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\js\jquery-1.2.1.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\js\jquery-speakers_coaches_consultants.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\js\jquery.heartbeat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\js\jquery.sparkline.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\simpletest.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\views\heartbeat.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\simpletest.org\views\photos_stream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\about.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\authentication_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\books_website.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\boundary_classes_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\browser_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\changelog.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\coding_standards.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\display_subclass_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\download_website.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\expectation_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\experimental_dom_tester.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\experimental_intro.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\experimental_recorder.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\extension_eclipse.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\first_test_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\form_testing_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\gain_control_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\group_test_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\group_test_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\heartbeat.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\ideas.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\improving_design_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\index.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\intro.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\mock_objects_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\mock_objects_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\overview.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\partial_mocks_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\photos_stream.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\reporter_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\screencasts.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\simple_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\softwares_using_simpletest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\speakers_coaches_consultancy.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\subclass_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\support_website.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\unit_test_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\web_tester_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\en\writing_extensions.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\authentication_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\books_website.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\boundary_classes_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\browser_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\display_subclass_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\download_website.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\expectation_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\extension_eclipse.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\first_test_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\form_testing_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\gain_control_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\group_test_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\group_test_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\improving_design_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\index.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\intro.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\logiciels_utilisant_simpletest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\mock_objects_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\mock_objects_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\overview.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\partial_mocks_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\reporter_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\simple_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\subclass_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\support_website.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\unit_test_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\fr\web_tester_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\about.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\authentication_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\books_website.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\boundary_classes_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\browser_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\changelog.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\coding_standards.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\display_subclass_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\download_website.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\expectation_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\experimental_dom_tester.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\experimental_intro.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\experimental_recorder.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\extension_eclipse.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\first_test_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\form_testing_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\gain_control_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\group_test_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\group_test_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\heartbeat.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\ideas.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\improving_design_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\index.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\intro.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\mock_objects_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\mock_objects_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\overview.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\partial_mocks_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\photos_stream.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\reporter_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\screencasts.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\simple_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\softwares_using_simpletest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\speakers_coaches_consultancy.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\subclass_tutorial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\support_website.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\unit_test_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\web_tester_documentation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\docs\source\it\writing_extensions.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\dumper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\eclipse.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\encoding.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\errors.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\expectation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\colortext_reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\autocoverage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\bin\php-coverage-close.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\bin\php-coverage-open.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\bin\php-coverage-report.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\coverage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\coverage_calculator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\coverage_data_handler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\coverage_reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\coverage_utils.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\coverage_writer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\simple_coverage_writer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\templates\file.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\templates\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\test\coverage_calculator_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\test\coverage_data_handler_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\test\coverage_reporter_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\test\coverage_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\test\coverage_utils_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\test\sample\code.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\test\simple_coverage_writer_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\coverage\test\test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\css\webunit.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\dom_tester.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\dom_tester\css_selector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\dom_tester\test\dom_tester_doc_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\dom_tester\test\dom_tester_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\dom_tester\test\support\child_adjacent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\dom_tester\test\support\dom_tester.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\img\wait.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\js\tests\TestOfWebunit.js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\js\webunit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\js\x.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\junit_xml_reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\pear_test_case.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\selenese_tester.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\selenium.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\selenium\remote-control.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\selenium\test\remote-control_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\testdox.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\testdox\test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\treemap_reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\treemap_reporter\jquery.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\treemap_reporter\test\treemap_node_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\treemap_reporter\treemap_recorder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\extensions\webunit_reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\form.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\frames.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\http.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\invoker.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\mock_objects.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\build_tarball.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\bundled_docs.xslt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\bundled_map.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\extension.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\generate_coverage.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\generate_package.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\lastcraft.xslt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\make_bundled_docs.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\make_lastcraft_docs.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\make_phpdoc_docs.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\onpk\map_onpk.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\onpk\onpk.xslt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\onpk\transform_all_onpk.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\package.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\pear_package_create.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\phpdoc_docs.xslt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\integration.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\map.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\package.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\template.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\content_without_section.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\en\synchronisation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\fr\no-synchronisation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\fr\synchronisation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\here_download.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\here_overview.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\here_simpletest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\here_start_testing.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\here_support.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\here_unit-tester.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\map.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\one_section_changelogged.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\one_section_milestoned.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\one_section_with_autorum_php.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\one_section_with_php_code.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package\script_and_ul.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\simpletest.org\test\package_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\site_map.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\packages\transform_all_lastcraft.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\page.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\php_parser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\recorder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\reflection_php4.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\reflection_php5.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\remote.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\reporter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\scorer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\selector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\shell_tester.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\simpletest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\socket.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\tag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\acceptance_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\adapter_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\all_tests.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\arguments_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\authentication_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\autorun_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\bad_test_suite.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\browser_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\collector_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\command_line_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\compatibility_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\cookies_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\detached_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\dumper_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\eclipse_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\encoding_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\errors_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\exceptions_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\expectation_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\extensions_tests.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\form_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\frames_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\http_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\interfaces_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\interfaces_test_php5_1.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\live_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\mock_objects_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\page_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\parse_error_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\parsing_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\php_parser_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\recorder_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\reflection_php4_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\reflection_php5_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\remote_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\shell_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\shell_tester_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\simpletest_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\base_change_redirect.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\base_tag\base_link.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\base_tag\form.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\base_tag\frameset.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\base_tag\frameset_with_base_tag.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\base_tag\page_1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\base_tag\page_2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\base_tag\relative_link.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\cookie_based_counter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\counting_frameset.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\double_base_change_redirect.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\file.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\form.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\form_data_encoded_form.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\form_with_array_based_inputs.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\form_with_false_defaults.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\form_with_mixed_post_and_get.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\form_with_quoted_values.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\form_with_radio_buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\form_with_tricky_defaults.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\form_with_unnamed_submit.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\form_without_action.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\frame_a.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\frame_b.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\frame_links.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\frameset.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\front_controller_style\a_page.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\front_controller_style\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\front_controller_style\show_request.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\link_confirm.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\local_redirect.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\messy_frameset.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\multiple_widget_form.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\nested_frameset.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\network_confirm.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\one_page_frameset.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\page_request.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\path\base_change_redirect.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\path\network_confirm.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\path\show_cookies.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\protected\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\protected\.htpasswd" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\protected\1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\protected\2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\protected\3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\protected\local_redirect.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\protected\network_confirm.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\redirect.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\request_methods.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\savant_style_form.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\search.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\self.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\self_form.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\set_cookies.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\slow_page.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\timestamp.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\upload_form.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\site\upload_handler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\socket_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\support\collector\collectable.1" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\support\collector\collectable.2" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\support\empty_test_file.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\support\failing_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\support\latin1_sample" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\support\passing_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\support\recorder_sample.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\support\spl_examples.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\support\supplementary_upload_sample.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\support\test1.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\support\upload_sample.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\tag_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\test_with_parse_error.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\unit_tester_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\unit_tests.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\url_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\user_agent_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\utf8_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\visual\visual_errors.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\visual_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\web_tester_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test\xml_test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\test_case.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\tidy_parser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\tutorials\SimpleTest\Expectations.pkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\tutorials\SimpleTest\FormTesting.pkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\tutorials\SimpleTest\GroupTests.pkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\tutorials\SimpleTest\MockObjects.pkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\tutorials\SimpleTest\PartialMock.pkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\tutorials\SimpleTest\Reporting.pkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\tutorials\SimpleTest\ServerStubs.pkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\tutorials\SimpleTest\SimpleTest.pkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\tutorials\SimpleTest\SimpleTest.pkg.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\tutorials\SimpleTest\UnitTestCase.pkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\tutorials\SimpleTest\WebTester.pkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\unit_tester.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\url.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\user_agent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\web_tester.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\php_simpletest\xml.php" afterPath="" />
+    </list>
+    <ignored path="php_simpletest.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="php_simpletest" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="guestbook_test.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/guestbook_test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9425051" vertical-offset="0" max-vertical-offset="782">
+              <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guestbook.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/guestbook.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.576923" vertical-offset="244" max-vertical-offset="748">
+              <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test/TestGuestbook.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/test/guestbook_test.php" />
+        <option value="$PROJECT_DIR$/classes/guestbook.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="php_simpletest" name="php_simpletest" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_simpletest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_simpletest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_simpletest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_simpletest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_simpletest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_simpletest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_simpletest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7651bb52-870f-4ed2-9523-33fb5cb0e915" name="Default" comment="" />
+      <created>1420301414460</created>
+      <option name="number" value="Default" />
+      <updated>1420301414460</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3997773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.040189125" vertical-offset="0" max-vertical-offset="846">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/guestbook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.576923" vertical-offset="244" max-vertical-offset="748">
+          <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/guestbook_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9425051" vertical-offset="0" max-vertical-offset="782">
+          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
